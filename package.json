@@ -7,5 +7,16 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Clases y ejercicios de React Native.\r agregando otra linea al readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andresti93/ClasescomIT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andresti93/ClasescomIT/issues"
+  },
+  "homepage": "https://github.com/Andresti93/ClasescomIT#readme"
 }
