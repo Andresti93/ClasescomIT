@@ -33,13 +33,13 @@ switch (dia){
     case 7:
         nombreDia = "domingo"
         break;
-    default:
-        if (nombreDia != null){
-            console.log(`El día seleccionado es ${nombreDia}`);
-        }
-        else{
-            console.log("Por favor seleccionar un número de 1 a 7");
-        }
+}
+
+if (nombreDia != null){
+    console.log(`El día seleccionado es ${nombreDia}`);
+}
+else{
+    console.log("Por favor seleccionar un número de 1 a 7");
 }
 
 
