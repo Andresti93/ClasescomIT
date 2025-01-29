@@ -39,7 +39,6 @@ const mejorJugadorArgentino = function(numero){
         default :
             nombre = "Carlos Bilardo";
     }
-
     console.log(`${numero}, ${nombre}`);
 }
 
