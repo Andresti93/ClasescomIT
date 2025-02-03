@@ -171,13 +171,13 @@ const juegos = [
     }
 ];
 
-// Declaramos una variable 'zona' con un valor entre 1 y 3
-let zona = 1;  // Puedes cambiar el valor a 2 o 3 para probar otras zonas
 
-// Declaramos la variable localidadFiltrada
+let zona = 1;  
+
+
 let localidadFiltrada;
 
-// Asignamos la localidad según el valor de zona
+
 if (zona === 1) {
     localidadFiltrada = "Capital Federal";
 } else if (zona === 2) {
@@ -185,15 +185,15 @@ if (zona === 1) {
 } else if (zona === 3) {
     localidadFiltrada = "Buenos Aires";
 } else {
-    localidadFiltrada = "Capital Federal";  // Por defecto
+    localidadFiltrada = "Capital Federal"; 
 }
 
-// Filtramos los juegos por la localidad
+
 const juegosFiltrados = juegos.filter(function(juego) {
     return juego.localidad === localidadFiltrada;
 });
 
-// Mostramos los juegos filtrados
+
 juegosFiltrados.forEach(function(juego) {
-    juego.imprimirEnPantalla();  // Aquí accedemos al método de cada objeto individual
+    juego.imprimirEnPantalla();  
 });
